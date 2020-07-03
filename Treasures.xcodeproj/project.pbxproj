@@ -106,9 +106,7 @@
 				F64241CD24AF2F1E0081343C /* AppDelegate.swift */,
 				F64241CF24AF2F1E0081343C /* SceneDelegate.swift */,
 				F64241DB24AF2F200081343C /* Assets.xcassets */,
-				F642421124AF4E630081343C /* Treasure.storyboard */,
-				F642421324AF4EC70081343C /* Category.storyboard */,
-				F642421524AF4F0B0081343C /* Favorite.storyboard */,
+				F642421724AF4FE50081343C /* View */,
 				F64241DD24AF2F200081343C /* LaunchScreen.storyboard */,
 				F64241E024AF2F200081343C /* Info.plist */,
 				F64241D824AF2F1E0081343C /* Treasures.xcdatamodeld */,
@@ -132,6 +130,16 @@
 				F64241F624AF2F200081343C /* Info.plist */,
 			);
 			path = TreasuresUITests;
+			sourceTree = "<group>";
+		};
+		F642421724AF4FE50081343C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F642421124AF4E630081343C /* Treasure.storyboard */,
+				F642421324AF4EC70081343C /* Category.storyboard */,
+				F642421524AF4F0B0081343C /* Favorite.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
