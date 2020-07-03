@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		F64241CE24AF2F1E0081343C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64241CD24AF2F1E0081343C /* AppDelegate.swift */; };
 		F64241D024AF2F1E0081343C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64241CF24AF2F1E0081343C /* SceneDelegate.swift */; };
-		F64241D224AF2F1E0081343C /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64241D124AF2F1E0081343C /* FirstViewController.swift */; };
-		F64241D424AF2F1E0081343C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64241D324AF2F1E0081343C /* SecondViewController.swift */; };
-		F64241D724AF2F1E0081343C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64241D524AF2F1E0081343C /* Main.storyboard */; };
 		F64241DA24AF2F1E0081343C /* Treasures.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F64241D824AF2F1E0081343C /* Treasures.xcdatamodeld */; };
 		F64241DC24AF2F200081343C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F64241DB24AF2F200081343C /* Assets.xcassets */; };
 		F64241DF24AF2F200081343C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F64241DD24AF2F200081343C /* LaunchScreen.storyboard */; };
 		F64241EA24AF2F200081343C /* TreasuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64241E924AF2F200081343C /* TreasuresTests.swift */; };
 		F64241F524AF2F200081343C /* TreasuresUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F64241F424AF2F200081343C /* TreasuresUITests.swift */; };
+		F642421224AF4E630081343C /* Treasure.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F642421124AF4E630081343C /* Treasure.storyboard */; };
+		F642421424AF4EC70081343C /* Category.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F642421324AF4EC70081343C /* Category.storyboard */; };
+		F642421624AF4F0B0081343C /* Favorite.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F642421524AF4F0B0081343C /* Favorite.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +40,6 @@
 		F64241CA24AF2F1E0081343C /* Treasures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Treasures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64241CD24AF2F1E0081343C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F64241CF24AF2F1E0081343C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F64241D124AF2F1E0081343C /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		F64241D324AF2F1E0081343C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		F64241D624AF2F1E0081343C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F64241D924AF2F1E0081343C /* Treasures.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Treasures.xcdatamodel; sourceTree = "<group>"; };
 		F64241DB24AF2F200081343C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F64241DE24AF2F200081343C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +50,9 @@
 		F64241F024AF2F200081343C /* TreasuresUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TreasuresUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F64241F424AF2F200081343C /* TreasuresUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreasuresUITests.swift; sourceTree = "<group>"; };
 		F64241F624AF2F200081343C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F642421124AF4E630081343C /* Treasure.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Treasure.storyboard; sourceTree = "<group>"; };
+		F642421324AF4EC70081343C /* Category.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Category.storyboard; sourceTree = "<group>"; };
+		F642421524AF4F0B0081343C /* Favorite.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Favorite.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +105,10 @@
 			children = (
 				F64241CD24AF2F1E0081343C /* AppDelegate.swift */,
 				F64241CF24AF2F1E0081343C /* SceneDelegate.swift */,
-				F64241D124AF2F1E0081343C /* FirstViewController.swift */,
-				F64241D324AF2F1E0081343C /* SecondViewController.swift */,
-				F64241D524AF2F1E0081343C /* Main.storyboard */,
 				F64241DB24AF2F200081343C /* Assets.xcassets */,
+				F642421124AF4E630081343C /* Treasure.storyboard */,
+				F642421324AF4EC70081343C /* Category.storyboard */,
+				F642421524AF4F0B0081343C /* Favorite.storyboard */,
 				F64241DD24AF2F200081343C /* LaunchScreen.storyboard */,
 				F64241E024AF2F200081343C /* Info.plist */,
 				F64241D824AF2F1E0081343C /* Treasures.xcdatamodeld */,
@@ -238,9 +238,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F642421424AF4EC70081343C /* Category.storyboard in Resources */,
+				F642421224AF4E630081343C /* Treasure.storyboard in Resources */,
 				F64241DF24AF2F200081343C /* LaunchScreen.storyboard in Resources */,
+				F642421624AF4F0B0081343C /* Favorite.storyboard in Resources */,
 				F64241DC24AF2F200081343C /* Assets.xcassets in Resources */,
-				F64241D724AF2F1E0081343C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +267,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F64241D424AF2F1E0081343C /* SecondViewController.swift in Sources */,
-				F64241D224AF2F1E0081343C /* FirstViewController.swift in Sources */,
 				F64241CE24AF2F1E0081343C /* AppDelegate.swift in Sources */,
 				F64241DA24AF2F1E0081343C /* Treasures.xcdatamodeld in Sources */,
 				F64241D024AF2F1E0081343C /* SceneDelegate.swift in Sources */,
@@ -305,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F64241D524AF2F1E0081343C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F64241D624AF2F1E0081343C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F64241DD24AF2F200081343C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
