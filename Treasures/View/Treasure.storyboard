@@ -14,14 +14,120 @@
                     <view key="view" contentMode="scaleToFill" id="mFP-Qy-v1s">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gdy-Ec-zBx">
+                                <rect key="frame" x="0.0" y="44" width="414" height="769"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="uIW-7w-e41">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1333.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" translatesAutoresizingMaskIntoConstraints="NO" id="B6A-Qf-CcI">
+                                                <rect key="frame" x="20" y="0.0" width="374" height="35"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uNC-kD-kun">
+                                                        <rect key="frame" x="0.0" y="0.0" width="26" height="35"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <state key="normal" image="heart" catalog="system">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="semibold"/>
+                                                        </state>
+                                                    </button>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="今天寶物" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V18-Wb-xgD">
+                                                        <rect key="frame" x="148" y="0.0" width="82" height="35"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0f-09-xY9">
+                                                        <rect key="frame" x="351.5" y="0.0" width="22.5" height="35"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <state key="normal" image="arrow.clockwise" catalog="system">
+                                                            <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="large" weight="semibold"/>
+                                                        </state>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="DP9-lX-04C"/>
+                                                </constraints>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="茶葉末六聯瓶" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jvw-lC-30h">
+                                                <rect key="frame" x="134" y="45" width="146" height="35"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="35" id="Avj-Vi-OPp"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="six-bottles" translatesAutoresizingMaskIntoConstraints="NO" id="3L5-gj-Uyv">
+                                                <rect key="frame" x="0.0" y="90" width="414" height="481"/>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="REM-xp-ATj">
+                                                <rect key="frame" x="0.0" y="581" width="414" height="50"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="清 乾隆　西元1736-1795" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="swm-1B-e65">
+                                                        <rect key="frame" x="94.5" y="0.0" width="225.5" height="29.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="高24.2公分" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PE1-rC-o0n">
+                                                        <rect key="frame" x="164" y="29.5" width="86" height="20.5"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="50" id="84f-1k-23U"/>
+                                                </constraints>
+                                            </stackView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Ot-cU-Osb">
+                                                <rect key="frame" x="40" y="641" width="334" height="692.5"/>
+                                                <mutableString key="text">此品造形奇特，分別由五隻相同尺寸、形制的瓶子環繞著中央的主瓶，共同構成一件獨立完整的作品。其實經由透視，得知瓶肩以下六瓶的器身彼此相連，肩部以上的細長頸則隻隻分開。特別是周邊的五管長度齊平，而中間的主瓶長度稍長，正好強調它是由六隻瓶子所組成的一件作品。瓶頸的外壁各出現一周細稜，器身無紋，表面罩施茶葉末釉，濃釉積聚處顏色較深，釉薄處呈現黃綠的色澤，底刻「大清乾隆年製」六字篆款。傳世的雍正官窯已經出現像雙連瓶、四連罐等由多件瓶子共同組合完成的作品，至乾隆時期，御窯廠再加以發揮，盡力燒造「雙管瓶」、「三級瓶」、「四喜瓶」、「五岳瓶」、「六孔瓶」和「七孔花插」等同時融合技術與想像為一器的新瓶式。透視六連瓶的構造，發現其組合相當別緻。即六聯瓶中間的主瓶瓶身從上而下分別開挖出五個穿孔，每一個穿孔又各與周邊環繞的五瓶相通。因此，六聯瓶雖然由六隻瓶子所組成，其實瓶身卻彼此相連、互通。最難得的是周邊的五隻瓶子，大小近乎相等，於黏貼過程又必須對準主瓶的穿孔，由此可見乾隆官窯悉心照顧細節的特色。</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="3Ot-cU-Osb" secondAttribute="trailing" constant="40" id="3B3-NU-d4q"/>
+                                            <constraint firstAttribute="trailing" secondItem="3L5-gj-Uyv" secondAttribute="trailing" id="5ET-Bu-CHv"/>
+                                            <constraint firstItem="REM-xp-ATj" firstAttribute="leading" secondItem="uIW-7w-e41" secondAttribute="leading" id="7gD-J6-oUC"/>
+                                            <constraint firstItem="3Ot-cU-Osb" firstAttribute="leading" secondItem="uIW-7w-e41" secondAttribute="leading" constant="40" id="DJK-Pr-VIO"/>
+                                            <constraint firstItem="B6A-Qf-CcI" firstAttribute="top" secondItem="uIW-7w-e41" secondAttribute="top" id="EBo-7y-mOY"/>
+                                            <constraint firstItem="B6A-Qf-CcI" firstAttribute="leading" secondItem="uIW-7w-e41" secondAttribute="leading" constant="20" id="HeX-H9-RkJ"/>
+                                            <constraint firstAttribute="trailing" secondItem="B6A-Qf-CcI" secondAttribute="trailing" constant="20" id="QEp-JA-kx0"/>
+                                            <constraint firstAttribute="trailing" secondItem="REM-xp-ATj" secondAttribute="trailing" id="Y58-y2-8rz"/>
+                                            <constraint firstItem="3L5-gj-Uyv" firstAttribute="leading" secondItem="uIW-7w-e41" secondAttribute="leading" id="jfk-qQ-9ST"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="uIW-7w-e41" firstAttribute="centerX" secondItem="gdy-Ec-zBx" secondAttribute="centerX" id="TTJ-VQ-J79"/>
+                                    <constraint firstItem="uIW-7w-e41" firstAttribute="trailing" secondItem="0fM-j8-6jG" secondAttribute="trailing" id="TUh-CB-ePd"/>
+                                    <constraint firstItem="uIW-7w-e41" firstAttribute="leading" secondItem="0fM-j8-6jG" secondAttribute="leading" id="hjg-Rs-3Tl"/>
+                                    <constraint firstItem="uIW-7w-e41" firstAttribute="bottom" secondItem="0fM-j8-6jG" secondAttribute="bottom" constant="-40" id="qE1-U7-fKV"/>
+                                    <constraint firstItem="uIW-7w-e41" firstAttribute="top" secondItem="0fM-j8-6jG" secondAttribute="top" id="zCj-rL-eXZ"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="0fM-j8-6jG"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="5uc-cX-bfM"/>
+                            </scrollView>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gdy-Ec-zBx" firstAttribute="centerX" secondItem="mFP-Qy-v1s" secondAttribute="centerX" id="4fP-qB-FnM"/>
+                            <constraint firstItem="gdy-Ec-zBx" firstAttribute="top" secondItem="vXO-GH-L5o" secondAttribute="top" id="87c-BD-MaW"/>
+                            <constraint firstItem="uIW-7w-e41" firstAttribute="width" secondItem="vXO-GH-L5o" secondAttribute="width" id="Bfq-BI-ODT"/>
+                            <constraint firstItem="vXO-GH-L5o" firstAttribute="width" secondItem="gdy-Ec-zBx" secondAttribute="width" id="grJ-LD-usB"/>
+                            <constraint firstItem="gdy-Ec-zBx" firstAttribute="bottom" secondItem="vXO-GH-L5o" secondAttribute="bottom" id="lb2-gv-Dwv"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="vXO-GH-L5o"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Treasure" image="star.fill" catalog="system" id="ZXW-7e-hR4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="U9m-rT-dkw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="174" y="619"/>
+            <point key="canvasLocation" x="173.91304347826087" y="618.75"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="8AH-2g-xhV">
@@ -64,6 +170,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow.clockwise" catalog="system" width="115" height="128"/>
+        <image name="heart" catalog="system" width="128" height="109"/>
+        <image name="six-bottles" width="375" height="481"/>
         <image name="star.fill" catalog="system" width="128" height="116"/>
     </resources>
 </document>
